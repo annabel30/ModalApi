@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'modalApi';
+
+  optionMostrar: boolean = false;
+
+  fechar() {
+    this.optionMostrar = false;
+  }
+
+  option(): void {
+    this.optionMostrar = !this.optionMostrar;
+  }
 }

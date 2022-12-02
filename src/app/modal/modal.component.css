@@ -1,0 +1,69 @@
+.modal {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #333;
+    min-width: 320px;
+    position: fixed;
+    left: 50%;
+    padding: 24px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 11;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+select {
+    font-size: 15px;
+    height: 6vh;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(204, 204, 204);
+}
+
+select:hover {
+    background-color: rgb(173, 173, 173);
+}
+
+select:focus {
+    outline: none;
+}
+
+.consultar {
+    font-size: 20px;
+    height: 7vh;
+    width: 10vw;
+    background-color: green;
+    border-radius: 15px;
+    border: none;
+}
+
+.consultar:hover {
+    background-color: rgb(8, 100, 8);
+    cursor: pointer;
+}
+
+input {
+    border: none;
+    border-radius: 15px;
+    height: 6vh;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(204, 204, 204);
+    font-size: 18px;
+}
+
+input:hover {
+    background-color: rgb(173, 173, 173);
+}
+
+input:focus {
+    outline: none;
+}
+
+.imagem {
+    width: 600px;
+    align-self: center;
+    margin-top: 30px;
+}
