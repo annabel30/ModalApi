@@ -1,0 +1,14 @@
+.modalDica {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #333;
+    width: 10vw;
+    margin: 40px;
+    margin-left: 8vw;
+    margin-top: 55vh;
+    padding: 10px;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    z-index: 11;
+    align-self: flex-start;
+}

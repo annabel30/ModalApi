@@ -1,0 +1,18 @@
+<img class="botaoDica" (mouseenter)="dica()" (mouseleave)="fecharDica()" src="../assets/img/pataGato.png">
+<img class="novelo" src="../assets/img/novelo.png" alt="">
+<div *ngIf="optionDica==true">
+  <app-dica></app-dica>
+</div>
+<div class="box">
+  <div class="titulo">Clique no gato</div>
+  <div class="option">
+    <button class="botao" (click)="option()">
+      <img class="gato1" src="../assets/img/gato1.png" alt="">
+    </button>
+    <div *ngIf="optionMostrar==true">
+      <app-modal></app-modal>
+      <div class="overlay" (click)="fechar()"></div>
+    </div>
+  </div>
+  <div class="subtitulo">* Veja a patinha preta para dicas *</div>
+</div>

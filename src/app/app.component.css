@@ -1,0 +1,56 @@
+.overlay {
+    background: #000;
+    height: 100vh;
+    left: 0;
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 10;
+}
+
+.titulo {
+    font-family: Font;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.subtitulo {
+    font-family: Font;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.botao {
+    border: none;
+    background-color: white;
+}
+.botao:hover {
+    cursor: pointer;
+}
+
+.gato1 {
+    width: 300px;
+}
+
+.botaoDica {
+    height: 25vh;
+    position: absolute;
+}
+
+.novelo {
+    position: absolute;
+    width: 100px;
+    margin-top: 65vh;
+    margin-left: 58vw;
+}
